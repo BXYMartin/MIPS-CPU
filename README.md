@@ -1,6 +1,6 @@
 # MIPS-CPU
-Xilinx Project for MIPS CPU
-
+Xilinx Project for MIPS Pipeline CPU with 5 stages
+![MIPS Pipeline CPU](http://www.evangelopoulos.net/wp-content/uploads/2015/03/qC8uK.jpg)
 ## Statements
 This is a repository maintained for Computer Organization Studies  
 The MIPS CPU supports MIPS-C4 Instruction Set  
@@ -12,3 +12,7 @@ MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`AD
 | 1 | Supports MIPS-C4 ISA | `Basic CPU` |
 | 2 | Supports Pause and Interrupt | `Standard CPU` |
 | 3 | Supports MIPS Microsystems | `Advanced CPU` |
+
+## Further Explanations
+### Stage 1
+MIPS Instruction Set
