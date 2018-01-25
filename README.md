@@ -2,7 +2,7 @@
 Xilinx Project for MIPS Pipeline CPU with 5 stages
 ![MIPS Pipeline CPU](http://www.evangelopoulos.net/wp-content/uploads/2015/03/qC8uK.jpg)
 ## Statements
-This is a repository maintained for Computer Organization Studies  
+This is a repository maintained for Computer Architecture Studies  
 The MIPS CPU supports MIPS-C4 Instruction Set  
 MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`ADDU`、`SUB`、`SUBU`、`MULT`、`MULTU`、`DIV`、`DIVU`、`SLL`、`SRL`、`SRA`、`SLLV`、`SRLV`、`SRAV`、`AND`、`OR`、`XOR`、`NOR`、`ADDI`、`ADDIU`、`ANDI`、`ORI`、`XORI`、`LUI`、`SLT`、`SLTI`、`SLTIU`、`SLTU`、`BEQ`、`BNE`、`BLEZ`、`BGTZ`、`BLTZ`、`BGEZ`、`J`、`JAL`、`JALR`、`JR`、`MFHI`、`MFLO`、`MTHI`、`MTLO`、`ERET`、`MFC0`、`MTC0`}  
 
@@ -15,4 +15,5 @@ MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`AD
 
 ## Further Explanations
 ### Stage 1
-MIPS Instruction Set
+MIPS Instruction Set  
+![MIPS ISA](http://slideplayer.com/slide/10672563/)
