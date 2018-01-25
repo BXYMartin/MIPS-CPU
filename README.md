@@ -58,9 +58,9 @@ When Pause signal arrives, CP0 Processor will hold & clear the pipeline until Ex
 
 | Address | Function | R/W |
 | :-: | :-: | :-: |
-| 0x00000000-0x00003000 | Data Memory | `R``W` |
+| 0x00000000-0x00003000 | Data Memory | `R` `W` |
 | 0x00003000-0x00004fff | Instruction Memory | `R` |
-| 0x00004fff-0x0000xxxx | Device Space | `R``W?` |
+| 0x00004fff-0x0000xxxx | Device Space | `R` `W?` |
 
 * Interrupt
 Interrupt can be caused by Exceptions inside CPU  
@@ -86,3 +86,9 @@ Devices are mapped as below
 | 0x00007f38-0x00007f3f | Digital Tube |
 | 0x00007f40-0x00007f43 | 8-bit Button |
 
+#### Synthesize
+Because I need to burn the `.bit` file into FPGA board, the whole system must be Synthesizable  
+Use IP Core instead of instantiate reg files can speed up the synthesize process  
+
+#### System Bridge
+Also, a bridge is needed to handle the communication between CPU and Devices 
