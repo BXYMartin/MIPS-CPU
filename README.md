@@ -16,4 +16,4 @@ MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`AD
 ## Further Explanations
 ### Stage 1
 MIPS Instruction Set  
-![MIPS ISA](http://slideplayer.com/slide/10672563/)
+![MIPS ISA](http://images.slideplayer.com/36/10672563/slides/slide_45.jpg)
