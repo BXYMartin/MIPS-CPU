@@ -1,0 +1,22 @@
+ISim log file
+Running: E:\Xilinx ISE Programming\Project 8\CPU_TEST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Xilinx ISE Programming/Project 8/CPU_TEST_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "E:/Xilinx ISE Programming/Project 8/CPU_TEST.v" Line 35.  For instance CPU_TEST/MIPS/, width 32 of formal port led_light is not equal to width 1 of actual signal led_light.
+WARNING: File "E:/Xilinx ISE Programming/Project 8/CPU_TEST.v" Line 45.  For instance CPU_TEST/MIPS/, width 4 of formal port digital_tube_sel0 is not equal to width 1 of actual signal digital_tube_sel0.
+WARNING: File "E:/Xilinx ISE Programming/Project 8/CPU_TEST.v" Line 46.  For instance CPU_TEST/MIPS/, width 4 of formal port digital_tube_sel1 is not equal to width 1 of actual signal digital_tube_sel1.
+WARNING: File "E:/Xilinx ISE Programming/Project 8/CPU_TEST.v" Line 48.  For instance CPU_TEST/MIPS/, width 8 of formal port digital_tube0 is not equal to width 1 of actual signal digital_tube0.
+WARNING: File "E:/Xilinx ISE Programming/Project 8/CPU_TEST.v" Line 49.  For instance CPU_TEST/MIPS/, width 8 of formal port digital_tube1 is not equal to width 1 of actual signal digital_tube1.
+WARNING: File "E:/Xilinx ISE Programming/Project 8/CPU_TEST.v" Line 50.  For instance CPU_TEST/MIPS/, width 8 of formal port digital_tube2 is not equal to width 1 of actual signal digital_tube2.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPU_TEST.MIPS.CPU.DATAPATH.F.IM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPU_TEST.MIPS.CPU.DATAPATH.DM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

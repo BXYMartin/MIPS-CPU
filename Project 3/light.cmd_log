@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU_INT -o "E:/Xilinx ISE Programming/Project 8/light.tfi" -lib work "E:/Xilinx ISE Programming/Project 8//light.v" -module light -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU_INT -o "E:/Xilinx ISE Programming/Project 8/button.tfi" -lib work "E:/Xilinx ISE Programming/Project 8//button.v" -module button -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

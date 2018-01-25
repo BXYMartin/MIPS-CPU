@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xilinx ISE Programming/Project 8/CPU_TEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/CPU_TEST/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CLOCK/CLK_OUT1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_OUT1</obj_property>
+      <obj_property name="ObjectShortName">CLK_OUT1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CLOCK/CLK_OUT2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_OUT2</obj_property>
+      <obj_property name="ObjectShortName">CLK_OUT2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/R_PIM_1/Data_In" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data_In[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/R_PIM_1/Data_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_Out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/PC_EXP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_EXP</obj_property>
+      <obj_property name="ObjectShortName">PC_EXP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/INSTR_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INSTR_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR_F[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/CONTROLLER/INSTR_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INSTR_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F_D/PC_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/CONTROLLER/INSTR_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INSTR_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/D_E/IMM_EXT_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IMM_EXT_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMM_EXT_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/ALU/C" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0_CTRL/Exception" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Exception[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Exception[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/F/PC_EXP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_EXP</obj_property>
+      <obj_property name="ObjectShortName">PC_EXP</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU_INT -o "E:/Xilinx ISE Programming/Project 8/ledctrl0.tfi" -lib work "E:/Xilinx ISE Programming/Project 8//ledctrl.v" -module ledctrl0 -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

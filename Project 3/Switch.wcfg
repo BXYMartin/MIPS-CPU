@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xilinx ISE Programming/Project 8/CPU_TEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/CPU_TEST/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch6[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/dip_switch7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch7[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/user_key" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">user_key[7:0]</obj_property>
+      <obj_property name="ObjectShortName">user_key[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/BRIDGE/From_Dev_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">From_Dev_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">From_Dev_4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/digital_tube_sel0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube_sel0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube_sel0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/digital_tube0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/LED/Reg[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg[0,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/LED_CTRL0/digital_tube0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/LED_CTRL0/Sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Sel[1:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xilinx ISE Programming/Project 8/mini_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mini" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/mini/DAT_O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DAT_O[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DAT_O[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/ACK_O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACK_O</obj_property>
+      <obj_property name="ObjectShortName">ACK_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/TxD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD</obj_property>
+      <obj_property name="ObjectShortName">TxD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/INT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">INT</obj_property>
+      <obj_property name="ObjectShortName">INT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/ADD_I" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADD_I[4:2]</obj_property>
+      <obj_property name="ObjectShortName">ADD_I[4:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/DAT_I" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DAT_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DAT_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/STB_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">STB_I</obj_property>
+      <obj_property name="ObjectShortName">STB_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/WE_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WE_I</obj_property>
+      <obj_property name="ObjectShortName">WE_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/CLK_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_I</obj_property>
+      <obj_property name="ObjectShortName">CLK_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/RST_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RST_I</obj_property>
+      <obj_property name="ObjectShortName">RST_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/RxD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD</obj_property>
+      <obj_property name="ObjectShortName">RxD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/uut/U_RX_UNIT/fsm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fsm[2:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/uut/U_RX_UNIT/cnt_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt_bits[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_bits[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/uut/U_RX_UNIT/byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mini/uut/U_RX_UNIT/rf_av" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_av</obj_property>
+      <obj_property name="ObjectShortName">rf_av</obj_property>
+   </wvobject>
+</wave_config>
