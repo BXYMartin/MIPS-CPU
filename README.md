@@ -1,4 +1,4 @@
-# MIPS-CPU
+# MIPS CPU
 Xilinx Project for MIPS Pipeline CPU with 5 stages
 ![MIPS Pipeline CPU](http://www.evangelopoulos.net/wp-content/uploads/2015/03/qC8uK.jpg)
 ## Statements
