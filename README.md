@@ -36,13 +36,18 @@ Designed to be Five-stage Pipeline
 * Write Back to Register File at W-Stage
 
 #### Hazards
+
 In MIPS System, Hazards can be properly handled  
 Stall and Forward can break the data hazard while bring the Compare Unit forward to D-Stage can solve the control hazard  
 When designing the system, two coding styles stand out  
+
 **Detector**
+
 Only detect the potential hazards  
 When detected, do the necessary operations
+
 **Planner**
+
 List all possible conflicts and handle each one of them properly in advance  
 
 Personally, I prefer Detector Coding Style to Planner Coding Style  
