@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xilinx ISE Programming/CPU_INT/CPU_TEST_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/CPU_TEST/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0/Exception_Code" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Exception_Code[7:2]</obj_property>
+      <obj_property name="ObjectShortName">Exception_Code[7:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0/Branch_Delay" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch_Delay</obj_property>
+      <obj_property name="ObjectShortName">Branch_Delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0/EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0/Ex_Request" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Ex_Request</obj_property>
+      <obj_property name="ObjectShortName">Ex_Request</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TEST/MIPS/CPU/DATAPATH/COP0/Cause_In" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Cause_In[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Cause_In[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

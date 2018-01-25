@@ -1,0 +1,98 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Xilinx ISE Programming/CPU_INT/CPU_TEST_isim_beh.exe" -prj "E:/Xilinx ISE Programming/CPU_INT/CPU_TEST_beh.prj" "work.CPU_TEST" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/stall.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/regfilestl.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/regfilepc.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/regfileclr.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/regfile.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/im.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/forward.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/adder.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/w.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/m_w.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/mdu.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/mdctrl.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/hazard.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/grf.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/f_d.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/f.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/e_m.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/ext.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/d_e.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/dmext.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/dm.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/ctrl.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/coprocessor.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/comms.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/coctrl.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/cmpdecoder.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/cmp.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/btdecoder.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/alu.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/datapath.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/control.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/cpu.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/counter.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/bridge.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/mips.v" into library work
+Analyzing Verilog file "E:/Xilinx ISE Programming/CPU_INT/CPU_TEST.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ctrl
+Compiling module cmpdecoder
+Compiling module mdctrl
+Compiling module stall
+Compiling module forward
+Compiling module hazard
+Compiling module control
+Compiling module regfilepc(WIDTH=32)
+Compiling module im
+Compiling module adder
+Compiling module f
+Compiling module regfilestl(WIDTH=32)
+Compiling module regfilestl(WIDTH=5)
+Compiling module f_d
+Compiling module grf
+Compiling module ext
+Compiling module cmp
+Compiling module regfileclr(WIDTH=5)
+Compiling module regfileclr(WIDTH=32)
+Compiling module regfileclr(WIDTH=10)
+Compiling module regfileclr(WIDTH=2)
+Compiling module regfileclr(WIDTH=3)
+Compiling module d_e
+Compiling module alu
+Compiling module mdu
+Compiling module comms
+Compiling module regfile(WIDTH=2)
+Compiling module regfile(WIDTH=5)
+Compiling module regfile(WIDTH=32)
+Compiling module regfile(WIDTH=4)
+Compiling module regfile(WIDTH=3)
+Compiling module e_m
+Compiling module btdecoder
+Compiling module dm
+Compiling module dmext
+Compiling module coctrl
+Compiling module coprocessor
+Compiling module regfile(WIDTH=1)
+Compiling module m_w
+Compiling module w
+Compiling module datapath
+Compiling module cpu
+Compiling module bridge
+Compiling module counter
+Compiling module mips
+Compiling module CPU_TEST
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 32 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\CPU_TEST_isim_beh.exe.sim\libPortability.dll".
+Compiled 47 Verilog Units
+Built simulation executable E:/Xilinx ISE Programming/CPU_INT/CPU_TEST_isim_beh.exe
+Fuse Memory Usage: 32396 KB
+Fuse CPU Usage: 1499 ms
