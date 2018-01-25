@@ -15,5 +15,9 @@ MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`AD
 
 ## Further Explanations
 ### Stage 1
-MIPS Instruction Set  
+* MIPS Instruction Set  
 ![MIPS ISA](http://images.slideplayer.com/36/10672563/slides/slide_45.jpg)
+[Full Instruction Document for MIPS32](https://www.cs.cornell.edu/courses/cs3410/2008fa/MIPS_Vol2.pdf)
+
+* Five Stage Pipeline
+![Five Stage Process](https://qph.ec.quoracdn.net/main-qimg-696a7840fbcca52be4681b8396a4d80b)
