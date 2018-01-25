@@ -16,7 +16,8 @@ MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`AD
 ## Further Explanations
 ### Stage 1
 * MIPS Instruction Set  
-![MIPS ISA](https://www.cise.ufl.edu/~mssz/CompOrg/Figure2.7-MIPSinstrFmt.gif)
+![MIPS ISA](https://www.cise.ufl.edu/~mssz/CompOrg/Figure2.7-MIPSinstrFmt.gif)  
+
 [Full Instruction Document for MIPS32](https://www.cs.cornell.edu/courses/cs3410/2008fa/MIPS_Vol2.pdf)
 
 * Five Stage Pipeline  
@@ -24,10 +25,11 @@ MIPS-C4 = {`LB`、`LBU`、`LH`、`LHU`、`LW`、`SB`、`SH`、`SW`、`ADD`、`AD
 ![Five Stage Process](https://qph.ec.quoracdn.net/main-qimg-696a7840fbcca52be4681b8396a4d80b)
 
 Designed to be Five-stage Pipeline  
+
 ![Guide](https://i.stack.imgur.com/7yPhC.jpg)  
 
-*Fetch Instruction at F-Stage 
-*Access Register Files at D-Stage  
-*Do Arithmatic at E-Stage  
-*Access Memory and Devices at M-Stage
-*Write Back to Register File at W-Stage
+* Fetch Instruction at F-Stage 
+* Access Register Files at D-Stage  
+* Do Arithmatic at E-Stage  
+* Access Memory and Devices at M-Stage
+* Write Back to Register File at W-Stage
